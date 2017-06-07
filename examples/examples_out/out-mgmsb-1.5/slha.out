@@ -1,0 +1,190 @@
+# Spectrum Output in SUSY Les Houches Accord 2
+# SuSeFLAV v1.2.0 
+# D. Chowdhury, R. Garani and S. K. Vempati, hep-ph/1109.3551 
+# For bug reports or any other queries please send email to suseflav@cts.iisc.ernet.in 
+# Created on 18.06.2012 at 11:50 Hrs
+#
+BLOCK SPINFO  #  Program information
+     1   SuSeFLAV     # Spectrum calculator
+     2   1.2.0        # Version number
+#
+BLOCK MODSEL  #  MODEL NAME
+     1      2   # GMSB  
+#
+BLOCK MINPAR  # Input parameters
+         1     5.50000000E+04   #  Lambda_susy        
+         2     1.10000000E+05   #  Lambda_mess        
+         3     1.50000000E+01   #  tanbeta(mz)        
+         4     1.00000000E+00   #  sign(mu)           
+         5     3.00000000E+00   #  N_mess             
+         6     1.00000000E+00   #  c_grav             
+#
+BLOCK SMINPUTS  # Standard Model inputs
+         1     1.27934000E+02   # alpha_em (M_Z)^MSbar
+         2     1.16637000E-05   # G_F [GeV^-2]
+         3     1.17200000E-01   # alpha_S(M_Z)^MSbar
+         4     9.11876000E+01   # M_Z pole mass
+         5     4.25000000E+00   # mb(mb)^MSbar
+         6     1.73300000E+02   # mt pole mass
+         7     1.77700000E+00   # mtau pole mass
+#
+#
+BLOCK MASS  # Mass Spectrum
+# PDG code           mass       particle
+        24     8.05147752E+01   # W+
+        25     1.13153347E+02   # h
+        35     5.10680826E+02   # H
+        36     5.10392734E+02   # A
+        37     5.17107290E+02   # H+
+   1000001     1.21406756E+03   # ~d_L
+   2000001     1.16535647E+03   # ~d_R
+   1000002     1.21157196E+03   # ~u_L
+   2000002     1.16806670E+03   # ~u_R
+   1000003     1.21406423E+03   # ~s_L
+   2000003     1.16534589E+03   # ~s_R
+   1000004     1.21156934E+03   # ~c_L
+   2000004     1.16806126E+03   # ~c_R
+   1000005     1.15642184E+03   # ~b_1
+   2000005     1.17665830E+03   # ~b_2
+   1000006     1.08878354E+03   # ~t_1
+   2000006     1.18900133E+03   # ~t_2
+   1000011     3.58518145E+02   # ~e_L
+   2000011     1.78318158E+02   # ~e_R
+   1000012     3.48870666E+02   # ~nu_eL
+   1000013     3.58525372E+02   # ~mu_L
+   2000013     1.78282923E+02   # ~mu_R
+   1000014     3.48871882E+02   # ~nu_muL
+   1000015     1.70965059E+02   # ~tau_1
+   2000015     3.60779265E+02   # ~tau_2
+   1000016     3.48606933E+02   # ~nu_tauL
+   1000021     1.27191757E+03   # ~g
+   1000022     2.31916705E+02   # ~chi_10
+   1000023     4.19480259E+02   # ~chi_20
+   1000025     5.13127447E+02   # ~chi_30
+   1000035     5.51394709E+02   # ~chi_40
+   1000024     4.13180518E+02   # ~chi_1+
+   1000037     5.44466675E+02   # ~chi_2+
+   1000039     1.43385000E-09   # ~gravitino
+#
+BLOCK NMIX  # Neutralino Mixing Matrix
+  1  1     9.90983808E-01   # N_11
+  1  2    -2.44882494E-02   # N_12
+  1  3     1.17449142E-01   # N_13
+  1  4    -5.96415737E-02   # N_14
+  2  1     9.00732142E-02   # N_21
+  2  2     8.39429779E-01   # N_22
+  2  3    -4.09232691E-01   # N_23
+  2  4     3.46082457E-01   # N_24
+  3  1     3.92205197E-02   # N_31
+  3  2    -5.43001744E-02   # N_32
+  3  3    -7.02194779E-01   # N_33
+  3  4    -7.08827013E-01   # N_34
+  4  1    -9.11024679E-02   # N_41
+  4  2     5.40193913E-01   # N_42
+  4  3     5.70663469E-01   # N_43
+  4  4    -6.11746746E-01   # N_44
+#
+BLOCK UMIX  # Chargino Mixing Matrix U
+  1  1     8.21171199E-01   # U_11
+  1  2    -5.70681926E-01   # U_12
+  2  1     5.70681926E-01   # U_21
+  2  2     8.21171199E-01   # U_22
+#
+BLOCK VMIX  # Chargino Mixing Matrix V
+  1  1     8.77295333E-01   # V_11
+  1  2    -4.79950933E-01   # V_12
+  2  1     4.79950933E-01   # V_21
+  2  2     8.77295333E-01   # V_22
+#
+BLOCK STOPMIX  # Stop Mixing Matrix
+  1  1     3.19575632E-01   # STOPMIX_11
+  1  2     9.47560771E-01   # STOPMIX_12
+  2  1    -9.47560771E-01   # STOPMIX_21
+  2  2     3.19575632E-01   # STOPMIX_22
+#
+BLOCK SBOTMIX  # Sbottom Mixing Matrix
+  1  1     4.23352244E-01   # SBOTMIX_11
+  1  2     9.05965163E-01   # SBOTMIX_12
+  2  1    -9.05965163E-01   # SBOTMIX_21
+  2  2     4.23352244E-01   # SBOTMIX_22
+#
+BLOCK STAUMIX  # Stau Mixing Matrix
+  1  1     1.37517931E-01   # STAUMIX_11
+  1  2     9.90499278E-01   # STAUMIX_12
+  2  1    -9.90499278E-01   # STAUMIX_21
+  2  2     1.37517931E-01   # STAUMIX_22
+#
+BLOCK ALPHA  # Higgs mixing
+          -7.46877061E-02   # Mixing angle in the neutral Higgs boson sector
+#
+BLOCK HMIX Q=  1.10219042E+03  # DRbar Higgs Parameters
+     1     5.06976459E+02   # mu(Q)
+     2     1.44772920E+01   # tanbeta(Q)
+     3     2.43676335E+02   # vev(Q)
+     4     3.02815766E+05   # MA^2(Q)
+#
+BLOCK GAUGE Q=  1.10219042E+03  # The gauge couplings
+     1     3.63114560E-01   # gprime(Q) DRbar
+     2     6.44427606E-01   # g(Q) DRbar
+     3     1.05663142E+00   # g_3(Q) DRbar
+#
+BLOCK AU Q=  1.10219042E+03  # The trilinear couplings
+  1  1    -3.65515634E+02   # A_u(Q) DRbar
+  2  2    -3.65513866E+02   # A_c(Q) DRbar
+  3  3    -3.44959146E+02   # A_t(Q) DRbar
+#
+BLOCK AD Q=  1.10219042E+03  # The trilinear couplings
+  1  1    -3.88341377E+02   # A_d(Q) DRbar
+  2  2    -3.88339318E+02   # A_s(Q) DRbar
+  3  3    -3.80882856E+02   # A_b(Q) DRbar
+#
+BLOCK AE Q=  1.10219042E+03  # The trilinear couplings
+  1  1    -3.77741310E+01   # A_e(Q) DRbar
+  2  2    -3.77738503E+01   # A_mu(Q) DRbar
+  3  3    -3.76895325E+01   # A_tau(Q) DRbar
+#
+BLOCK YU Q=  1.10219042E+03  # The top Yukawa coupling
+  3  3     8.54157724E-01   # y_top(Q) DRbar
+#
+BLOCK YD Q=  1.10219042E+03  # The down Yukawa coupling
+  3  3     2.00507884E-01   # y_b(Q) DRbar
+#
+BLOCK YE Q=  1.10219042E+03  # The tau Yukawa coupling
+  3  3     1.51221350E-01   # y_tau(Q) DRbar
+#
+BLOCK MSOFT Q=  1.10219042E+03  # soft SUSY breaking masses at scale Q
+         1     2.38588122E+02   # M_1
+         2     4.49249418E+02   # M_2
+         3     1.21365048E+03   # M_3
+        21     5.17026054E+02   # M^2_Hd
+        22    -2.37614431E+05   # M^2_Hu
+        31     3.48574207E+02   # M_eL
+        32     3.48573349E+02   # M_muL
+        33     3.48315051E+02   # M_tauL
+        34     1.66453937E+02   # M_eR
+        35     1.66450273E+02   # M_muR
+        36     1.65343622E+02   # M_tauR
+        41     1.16854939E+03   # M_q1L
+        42     1.16854471E+03   # M_q2L
+        43     1.13362557E+03   # M_q3L
+        44     1.12551650E+03   # M_uR
+        45     1.12551241E+03   # M_cR
+        46     1.05554013E+03   # M_tR
+        47     1.12161224E+03   # M_dR
+        48     1.12160656E+03   # M_sR
+        49     1.11769439E+03   # M_bR
+#
+BLOCK SuSeFLAVLOWENERGY   #  PARAMETERS 
+         1     3.91827563E-03   # Delta rho parameter
+         2     1.53681171E-09   # g_mu - 2
+         3     0.00000000E+00   # Br(b -> s gamma)
+         4     0.00000000E+00   # Br(tau -> mu gamma)
+         5     0.00000000E+00   # Br(tau -> e gamma)
+         6     0.00000000E+00   # Br(mu -> e gamma)
+         7     0.00000000E+00   # Br(tau -> mu mu mu)
+         8     0.00000000E+00   # Br(tau -> e e e)
+         9     0.00000000E+00   # Br(mu -> e e e)
+#
+BLOCK FINETUNE  # Fine Tuning
+         1     6.06481547E+01   # delta mZ^2/mZ^2 (mu^2)
+         2     3.03575923E+01   # delta mt/mt (mu^2)

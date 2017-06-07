@@ -1,0 +1,140 @@
+ ******** Begin Program SuSeFLAV ************
+           model =    NUHM
+            loop =    2
+         tanbeta =    5.0000E+01
+             m0  =    2.0000E+03
+             a0  =    0.0000E+00
+             M12 =    1.2000E+03
+             m10 =    4.0000E+02
+             m20 =    4.0000E+02
+         sign mu =    1.0000E+00
+            qmix =    1
+   top pole mass =    1.7270E+02
+             rhn =    1
+            case =    MNS
+             MR1 =    1.0000E+06
+             MR2 =    1.0000E+09
+             MR3 =    1.0000E+14
+ ********************************************
+ 
+  up-type yukawa at high energy:
+     2.6763E-06    6.1897E-07    1.2977E-08
+    -6.1904E-04    2.6765E-03    1.1884E-04
+     3.9109E-03   -1.8836E-02    4.7521E-01
+ 
+  down-type yukawa at high energy:
+     4.8648E-04   -1.8878E-08    5.0217E-07
+    -3.7757E-07    9.7335E-03   -4.8382E-05
+     2.1961E-04   -1.0579E-03    2.6441E-01
+ 
+  lepton-type yukawa at high energy:
+     1.0613E-04   -4.5574E-07    5.2834E-07
+    -9.5238E-05    2.2339E-02   -2.3565E-04
+     2.2820E-03   -4.8705E-03    4.8484E-01
+ 
+  nuetrino yukawa at high energy:
+     2.7615E-06    1.8940E-06    5.5694E-07
+    -1.6030E-03    1.6927E-03    2.2689E-03
+     1.7317E-01   -3.6955E-01    4.1254E-01
+ 
+  up-type yukawa at msusy :
+     6.2605E-06    1.4481E-06    2.3737E-08
+    -1.4481E-03    6.2606E-03    2.6676E-04
+     6.9543E-03   -3.3492E-02    8.1736E-01
+ 
+  down-type yukawa at msusy :
+     1.2557E-03   -6.5965E-09    1.5688E-07
+    -1.3193E-07    2.5116E-02   -1.5111E-05
+     6.7843E-05   -3.2674E-04    5.6096E-01
+ 
+  lepton-type yukawa at msusy :
+     1.4052E-04   -4.4694E-08    3.7561E-08
+    -9.3437E-06    2.9370E-02   -1.6740E-05
+     1.9423E-04   -4.1408E-04    5.2991E-01
+ 
+  Spectrum at msusy, q =   2.4781E+03
+              alpha_1  =   3.6400E-01
+              alpha_2  =   6.3848E-01
+              alpha_3  =   1.0170E+00
+               vev1    =   4.9563E+00
+               vev2    =   2.4352E+02
+           newtbeta    =   4.9134E+01
+                  \mu  =   2.0259E+03
+              ~gluino  =   2.6929E+03
+               ~stop_1 =   2.4202E+03
+               ~stop_2 =   2.6756E+03
+             ~scharm_R =   2.9856E+03
+             ~scharm_L =   3.0559E+03
+                ~sup_R =   2.9856E+03
+                ~sup_L =   3.0565E+03
+           ~sbottom_1  =   2.6370E+03
+           ~sbottom_2  =   2.7253E+03
+           ~sstrange_R =   2.9773E+03
+           ~sstrange_L =   3.0568E+03
+             ~sdown_R  =   2.9779E+03
+             ~sdown_L  =   3.0574E+03
+               ~stau_1 =   1.6533E+03
+               ~stau_2 =   1.9741E+03
+               ~smu_R  =   2.0491E+03
+               ~smu_L  =   2.1390E+03
+              ~sel_R   =   2.0504E+03
+              ~sel_L   =   2.1467E+03
+              ~tausnu  =   1.9658E+03
+                ~musnu =   2.1358E+03
+                ~elsnu =   2.1414E+03
+ 
+ Higgs Spectrum
+                 mA0   =   1.2965E+03
+            mh_charged =   1.2993E+03
+                 mh0   =   1.2012E+02
+                  mH   =   1.2966E+03
+            \alpha_h   =  -2.0485E-02
+ 
+ Neutralino spectrum
+                  N1   =   5.1805E+02
+                  N2   =   9.6810E+02
+                  N3   =   2.0270E+03
+                  N4   =   2.0289E+03
+ 
+ Chargino spectrum
+                  C1   =   9.4720E+02
+                  C2   =   2.0251E+03
+ 
+  Low Energy Observables 
+   Fine tuning, Cmz^2mu^2   =    9.0270E+02
+   Fine tuning, Cmt^2mu^2   =    4.5135E+02
+        Br(B  => s,gamma)   =    3.5811E-04
+       Br(mu  => e,gamma)   =    2.2675E+00 X 10^(-11)
+       Br(tau => mu,gamma)  =    2.6458E-03 X 10^(-08)
+       Br(tau => e,gamma)   =    5.8004E-05 X 10^(-07)
+         Br(tau => e,e,e)   =    6.8985E-07 X 10^(-07)
+      Br(tau => mu,mu,mu)   =    8.0237E-07 X 10^(-07)
+          Br(mu => e,e,e)   =    1.6402E-01 X 10^(-12)
+        Br(mu => e in Ti)   =    1.6194E+00 X 10^(-12)
+            (g_mu - 2)      =    2.4580E+00 X 10^(-10)
+------------------------------
+flag for the point is  AOK                                                                                                
+ --------------------------------------------------
+ FLAGS AND THEIR MEANINGS
+ AOK = Everything is fine.
+ BMUNEG = B_mu is negative at Msusy.
+ REWSB = |\mu|^2 < 0 at Msusy.
+ MUNOC = Non-convergent |\mu| at Msusy.
+ SW2NOC = Non-convergent Sin^2_thetaw at Mz.
+ NPERTYUK = Non-perturbative yukawa.
+ TACSPEC = Spectrum is tachyonic at Msusy.
+ TACSPECMZ = Spectrum is tachyonic at Mz.
+ FSNC = Final spectrum non-convergent.
+ TACMh = Lightest CP-even neutral higgs tachyonic.
+ TACMH = Heaviest CP-even neutral higgs tachyonic.
+ TACMA = CP-odd neutral higgs tachyonic.
+ TACMHCH = Charged higgs tachyonic.
+ VARUNDER = Stepsize is zero while integrating the RGEs.
+ TACSUP = SUP sector tachyonic.
+ TACSDN = SDOWN sector tachyonic.
+ TACSLP = SLEPTON sector tachyonic.
+ TACSNU = SNEUTRINO sector tachyonic.
+ LEPH = Lightest higgs mass below LEP limit.
+ LEPC = Lightest chargino mass < 103.5 GeV.
+ LSPSTAU = Lightest stau is LSP.
+ --------------------------------------------------
