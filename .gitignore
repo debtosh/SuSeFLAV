@@ -1,0 +1,6 @@
+#Local Files
+*/.DS_Store
+*.DS_Store
+.gitignore~
+*~
+*.[oa]
