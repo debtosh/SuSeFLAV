@@ -192,7 +192,6 @@ Output files:
        2. `slha.out` for output in slha format.
 
 
----
 
 ## Documentation
 
