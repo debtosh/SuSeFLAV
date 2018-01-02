@@ -201,6 +201,6 @@ If you use SuSeFLAV in your work please cite [D. Chowdhury et al., Comput. Phys.
 
 ## Contact
 
-Debtosh Chowdhury			<Debtosh.Chowdhury@roma1.infn.it>
+Debtosh Chowdhury			<Debtosh.Chowdhury@polytechnique.edu>
 Raghuveer Garani			<veergarani@gmail.com>
-Sudhir Vempati				<vempati@chep.iisc.ernet.in>
+Sudhir Vempati				<vempati@iisc.ac.in>
