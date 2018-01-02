@@ -184,7 +184,7 @@ Source files:
        by the program
 
 Output files:
-       1. `suseflav.out` for the output in unformatted text.
+       1. `suseflav.out` for the output in unformatted text.  
        2. `slha.out` for output in slha format.
 
 
@@ -196,11 +196,11 @@ If you use SuSeFLAV in your work please cite [D. Chowdhury et al., Comput. Phys.
 
 ## Web
 
-<http://chep.iisc.ac.in/Suseflav/main.html>
+<http://chep.iisc.ac.in/Suseflav/main.html>  
 <https://suseflav.hepforge.org>
 
 ## Contact
 
-Debtosh Chowdhury			`Debtosh.Chowdhury AT polytechnique.edu`  
-Raghuveer Garani			`veergarani AT gmail.com`  
-Sudhir Vempati				`vempati AT iisc.ac.in`
+Debtosh Chowdhury	&nbsp;		`Debtosh.Chowdhury AT polytechnique.edu`  
+Raghuveer Garani	&nbsp;&nbsp;		`veergarani AT gmail.com`  
+Sudhir Vempati		&nbsp;&nbsp;		`vempati AT iisc.ac.in`
