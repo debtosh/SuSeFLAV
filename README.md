@@ -1,5 +1,9 @@
+# SuSeFLAV
+
+State of the art computational methods are essential to completely understand Supersymmetry. SuSeFLAV is one such numerical tool which is capable of investigating mSUGRA, GMSB, non-universal Higgs models and complete non-universal models. The program solves complete MSSM RGEs with complete 3 flavor mixing at 2-loop level and also adds one loop threshold corrections to all MSSM parameters by incorporating radiative electroweak symmetry breaking conditions, using standard model fermion masses and gauge couplings as inputs at the weak scale. The program has a provision to run three right handed neutrinos at user defined scales and mixing. Also, the program computes branching ratios and decay rates for various flavor violating processes such as μ → e γ, τ → e γ, τ → μ γ, μ → e e e, τ → μ μ μ, τ → e e e, b → s γ etc. and anomalous magnetic moment of muon.
+
 # Compilation and Installation Instructions for SuSeFLAV-1.2.0
----
+
 *NOTE: From this version, SUSEFLAV is independent of LAPACK*
 
 
