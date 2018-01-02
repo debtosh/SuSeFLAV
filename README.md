@@ -179,11 +179,11 @@ Several example inputs are contained in the folder `examples`.
 Most of them reflect the benchmark points after the recent
 LHC data.
 
-Source files:
+Source files:  
        The directory `src` contains all the source files required
        by the program
 
-Output files:
+Output files:  
        1. `suseflav.out` for the output in unformatted text.  
        2. `slha.out` for output in slha format.
 
@@ -202,5 +202,5 @@ If you use SuSeFLAV in your work please cite [D. Chowdhury et al., Comput. Phys.
 ## Contact
 
 Debtosh Chowdhury	&nbsp;		`Debtosh.Chowdhury AT polytechnique.edu`  
-Raghuveer Garani	&nbsp;&nbsp;		`veergarani AT gmail.com`  
-Sudhir Vempati		&nbsp;&nbsp;		`vempati AT iisc.ac.in`
+Raghuveer Garani	&nbsp;&nbsp;&nbsp;		`veergarani AT gmail.com`  
+Sudhir Vempati		&nbsp;&nbsp;&nbsp;&nbsp;		`vempati AT iisc.ac.in`
