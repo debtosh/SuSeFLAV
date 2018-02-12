@@ -17,7 +17,7 @@ This creates a directory in your `home` with name `suseflav_1.x.x`
 To install SuSeFLAV you will need FORTRAN 90/95 compiler. SuSeFLAV has been
 successfully compiled using GNU g95 and Intel ifort(12.x) on Linux and Unix
 operating systems [1]. The compilation of the program is handled by the provided
-Makefile. To make and install the distribution type the command
+Makefile. To make and install the distribution type the command 
 
 [1]: From this version, SUSEFLAV is independent of LAPACK
 
