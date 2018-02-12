@@ -320,7 +320,7 @@ c$$$      print*,"mstop(1), mstop(2) = ", mstop(1), mstop(2)
       
 !--------------------------------------------------
 
-      delta = 15.d0 + 18.d0 * dlog(q/p)
+      delta = 15.d0 + 9.d0 * dlog((q*q)/(p*p))
       
 !      print*,"delta1 = " , delta
      
